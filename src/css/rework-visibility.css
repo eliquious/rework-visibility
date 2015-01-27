@@ -1,0 +1,212 @@
+/*
+Rework Visibility is a general-purpose CSS rule set for visibility.
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Max Franks
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+.invisible {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+
+/* Print */
+.visible-print {
+    display: none !important;
+}
+.visible-print-block {
+    display: none !important;
+}
+.visible-print-inline {
+    display: none !important;
+}
+.visible-print-inline-block {
+    display: none !important;
+}
+
+
+/* Small */
+@media screen and (min-width: 32rem) {
+
+    /* Visible */
+    .visible-sm {
+        display: block !important;
+    }
+
+    /* Tables */
+    table.visible-sm {
+        display: table;
+    }
+    tr.visible-sm {
+        display: table-row !important;
+    }
+    th.visible-sm,
+    td.visible-sm {
+        display: table-cell !important;
+    }
+
+    /* Blocks */
+    .visible-sm-block {
+        display: block !important;
+    }
+    .visible-sm-inline {
+        display: inline !important;
+    }
+    .visible-sm-inline-block {
+        display: inline-block !important;
+    }
+
+    /* Hidden */
+    .invisible-sm {
+        display: none !important;
+    }
+}
+
+/* medium */
+@media screen and (min-width: 48rem) {
+
+    /* Visible */
+    .visible-md {
+        display: block !important;
+    }
+
+    /* Tables */
+    table.visible-md {
+        display: table;
+    }
+    tr.visible-md {
+        display: table-row !important;
+    }
+    th.visible-md,
+    td.visible-md {
+        display: table-cell !important;
+    }
+
+    /* Blocks */
+    .visible-md-block {
+        display: block !important;
+    }
+    .visible-md-inline {
+        display: inline !important;
+    }
+    .visible-md-inline-block {
+        display: inline-block !important;
+    }
+
+    /* Hidden */
+    .invisible-md {
+        display: none !important;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 64rem) {
+
+    /* Visible */
+    .visible-lg {
+        display: block !important;
+    }
+
+    /* Tables */
+    table.visible-lg {
+        display: table;
+    }
+    tr.visible-lg {
+        display: table-row !important;
+    }
+    th.visible-lg,
+    td.visible-lg {
+        display: table-cell !important;
+    }
+
+    /* Blocks */
+    .visible-lg-block {
+        display: block !important;
+    }
+    .visible-lg-inline {
+        display: inline !important;
+    }
+    .visible-lg-inline-block {
+        display: inline-block !important;
+    }
+
+    /* Hidden */
+    .invisible-lg {
+        display: none !important;
+    }
+}
+
+/* Print */
+@media print {
+
+    /* Visible */
+    .visible-print {
+        display: block !important;
+    }
+
+  /* Table */
+    table.visible-print {
+        display: table;
+    }
+    tr.visible-print {
+        display: table-row !important;
+    }
+    th.visible-print,
+    td.visible-print {
+        display: table-cell !important;
+    }
+
+    /* Block */
+    .visible-print-block {
+        display: block !important;
+    }
+    .visible-print-inline {
+        display: inline !important;
+    }
+    .visible-print-inline-block {
+        display: inline-block !important;
+    }
+
+    /* Hidden */
+    .invisible-print {
+        display: none !important;
+    }
+}
