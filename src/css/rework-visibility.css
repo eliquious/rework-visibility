@@ -27,7 +27,7 @@ SOFTWARE.
 
 .invisible {
     display: none !important;
-    visibility: hidden !important;
+    /*visibility: hidden !important;*/
 }
 
 .visible-sm,
@@ -63,8 +63,46 @@ SOFTWARE.
 }
 
 
+/* X-Small */
+@media only screen and (max-width: calc(48em - 1px)) {
+
+    /* Visible */
+    .visible-xs {
+        display: block !important;
+    }
+
+    /* Tables */
+    table.visible-xs {
+        display: table;
+    }
+    tr.visible-xs {
+        display: table-row !important;
+    }
+    th.visible-xs,
+    td.visible-xs {
+        display: table-cell !important;
+    }
+
+    /* Blocks */
+    .visible-xs-block {
+        display: block !important;
+    }
+    .visible-xs-inline {
+        display: inline !important;
+    }
+    .visible-xs-inline-block {
+        display: inline-block !important;
+    }
+
+    /* Hidden */
+    .invisible-xs {
+        display: none !important;
+    }
+}
+
+
 /* Small */
-@media screen and (min-width: 32rem) {
+@media only screen and (min-width: 48em) {
 
     /* Visible */
     .visible-sm {
@@ -101,7 +139,7 @@ SOFTWARE.
 }
 
 /* medium */
-@media screen and (min-width: 48rem) {
+@media only screen and (min-width: 62em) {
 
     /* Visible */
     .visible-md {
@@ -138,7 +176,7 @@ SOFTWARE.
 }
 
 /* Large */
-@media screen and (min-width: 64rem) {
+@media only screen and (min-width: 75em) {
 
     /* Visible */
     .visible-lg {
