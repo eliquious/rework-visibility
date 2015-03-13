@@ -68,7 +68,7 @@ SOFTWARE.
 
     /* Visible */
     .visible-xs {
-        display: block !important;
+        display: inherit !important;
     }
 
     /* Tables */
@@ -106,7 +106,7 @@ SOFTWARE.
 
     /* Visible */
     .visible-sm {
-        display: block !important;
+        display: inherit !important;
     }
 
     /* Tables */
@@ -143,7 +143,7 @@ SOFTWARE.
 
     /* Visible */
     .visible-md {
-        display: block !important;
+        display: inherit !important;
     }
 
     /* Tables */
@@ -180,7 +180,7 @@ SOFTWARE.
 
     /* Visible */
     .visible-lg {
-        display: block !important;
+        display: inherit !important;
     }
 
     /* Tables */
@@ -217,7 +217,7 @@ SOFTWARE.
 
     /* Visible */
     .visible-print {
-        display: block !important;
+        display: inherit !important;
     }
 
   /* Table */
